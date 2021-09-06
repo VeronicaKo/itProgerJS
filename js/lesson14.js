@@ -3,7 +3,6 @@ let date=new Date();
 console.log(date.getFullYear()+'/'+(date.getMonth()+1) +'/'+date.getDate() + ' '+date.getHours() +':'+date.getMinutes()+':'+date.getSeconds());
 
 let arr=[10,2,8,9,5];
-
 function compareNum(a, b) {
     return a-b;  }
 arr=arr.sort(compareNum);
