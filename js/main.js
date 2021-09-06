@@ -3,8 +3,6 @@ console.info("Watermelon is a green fruit");
 console.error("Orange is a not orange fruit");
 console.warn("Plum is a violet fruit");
 
-// var num;
-// num = 5;
 var num = 5;
 num+=7;
 const fry = (60.8*3-8)/4;
