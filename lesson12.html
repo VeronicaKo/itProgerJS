@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head defer>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Learning JavaScript</title>
+</head>
+<body>
+  <noscript>Turn on JavaScript</noscript>
+  <p id="text">text</p>
+<span>one</span>
+<span>two</span>
+<span>three</span>
+<br>
+<span class="simple-text">first</span>
+<span class="simple-text">second</span>
+<span class="simple-text">third</span>
+<br><br>
+  <form id="main-form" onsubmit="return checkForm(this)" method="post">
+    <fieldset>
+      <legend>Registration form</legend>
+      <label for="name">Name:</label>
+      <input type="text" name="name" placeholder="name" id="name"><br><br>
+      <label for="password">password:</label>
+      <input type="password" name="pass" placeholder="password" id="pass"><br><br>
+      <label for="repass">Check password:</label>
+      <input type="password" name="repass" placeholder="Check password" id="repass"><br><br>
+      <span>Gender:</span>
+      <input type="radio" name="state" value="male" id="male">
+      <label for="male">male</label>
+      <input type="radio" name="state" value="female" id="female">
+      <label for="female">female</label><br><br>
+      <div id="error" style="color: red"></div>
+      <input type="submit" name="submit" value="ready">
+    </fieldset>
+  </form>
+
+  <script type="text/javascript" src="js/lesson12.js" type="video/"></script>
+</body>
+</html>
