@@ -34,7 +34,6 @@ console.log(nume);
 
 //lesson 11
 var counter=0;
-
 function onClickButton(but) {
   var selectedBGColor = document.getElementById("bgchoice").value;
   document.body.style.backgroundColor = selectedBGColor;
