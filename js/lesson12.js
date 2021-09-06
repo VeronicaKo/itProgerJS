@@ -16,7 +16,6 @@ for (var i = 0; i < spans1.length; i++) {
 
 function checkForm(el) {
   // let name  = document.getElementById('name').value;
-  
   let name = el.name.value;
   let pass = el.pass.value;
   let repass = el.repass.value;
