@@ -7,6 +7,7 @@ if(data){
 }
 
 var age = prompt("How old are you?",20);
+
 console.log(age);
 
 var person=null;
