@@ -10,7 +10,6 @@ function my_func() {
 }
 
 // or
-
 // let counter = 0;
 // setInterval(function() {
 //   counter++;
